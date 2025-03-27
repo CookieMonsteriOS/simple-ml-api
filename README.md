@@ -24,6 +24,12 @@ This project implements a perceptron model to predict Titanic passenger survival
      ```
 - **AWS Endpoint:** Access the deployed API at `<your-elastic-beanstalk-url>/predict`.
 
+## Deployment
+- Deployed on AWS Elastic Beanstalk using Docker for containerization.
+- Steps:
+  1. Created a `Dockerfile` and `.ebextensions` for Elastic Beanstalk.
+  2. Pushed to AWS using the EB CLI: `eb deploy`.
+
 ## Future Improvements
 - Add model training endpoint.
 - Integrate with Databricks for large-scale data processing.
